@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    padding: 1.25rem;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    flex-grow: 1;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 1.875rem;
+}
+
+.title {
+    font-size: 1.875rem;
+    font-weight: 800;
+    padding-left: 0.625rem;
+}
+
+.play, .modalita {
+    padding: 0px 15px;
+    background-color: lightgray;
+    border-radius: 10%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.grid {
+    height: 37.5rem;
+    width: 37.5rem;
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.celle-10 {
+    border: 1px solid black;
+    background-color: beige;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.celle-8 {
+    border: 1px solid black;
+    background-color: beige;
+    width: calc(100% / 8);
+    height: calc(100% / 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.celle-7{
+    
+    border: 1px solid black;
+    background-color: beige;
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
